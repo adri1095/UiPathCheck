@@ -103,7 +103,7 @@
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1505,521.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1209,569.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:List(x:String)" Default="[new List(of String) from {&quot;MADRID&quot;, &quot;valencia&quot;, &quot;BARCELONA&quot;}]" Name="list1" />
       <Variable x:TypeArguments="scg:List(x:String)" Name="list2" />
@@ -116,6 +116,6 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:CollectionToDataTable x:TypeArguments="x:String" Collection="[list1]" DataTable="[ListToDataTableResult]" DisplayName="Collection to DataTable" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="CollectionToDataTable`1_1" />
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="WriteLine_1" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Hola" />
   </Sequence>
 </Activity>
