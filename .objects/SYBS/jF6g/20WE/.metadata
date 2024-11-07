@@ -1,0 +1,15 @@
+﻿{
+  "Name": "DepositTransaction",
+  "Type": "Screen",
+  "Id": "20WE7qwW4U2IpB1_uK5QJQ",
+  "Reference": "ve8RWxKz_UyGeNPl6mMYaw/20WE7qwW4U2IpB1_uK5QJQ",
+  "ParentRef": "ve8RWxKz_UyGeNPl6mMYaw/jF6g-qX5Q0WmNlvTqKFDJQ",
+  "Created": "2024-10-02T14:46:43.8588858Z",
+  "Updated": "2024-10-02T14:48:50.9407045Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
